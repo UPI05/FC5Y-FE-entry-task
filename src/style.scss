@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+html {
+    body {
+        #container {
+            width: 561px;
+            height: 421px;
+            margin: 0 auto;
+            background-color: white;
+            border-radius: 16px;
+            margin-top: 301px;
+            //box-shadow: 0px 0px 16px;
+            #content {
+                margin-left: 81px;
+                margin-top: 80px;
+                float: left;
+                font-family: Muli;
+                font-style: normal;
+                font-size: 18px;
+                font-weight: normal;
+                color: #4F4F4F;
+                #name {
+                    height: 30px;
+                    color: #EB5757;
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+                #user {
+                    height: 23px;
+                    color: #F2994A;
+                    font-size: 18px;
+                    font-weight: normal;
+                }
+                #companyName {
+                    height: 23px;
+                    font-size: 18px;
+                    font-weight: bold;
+                    color: #2F80ED;
+                    margin-top: 21px;
+                }
+                .lst {
+                    width: 100%;
+                    height: 23px;
+                    margin-top: 15px;
+                    float: left;
+                    .lstIcon {
+                        float: left;
+
+                    }
+                    .lstDetail {
+                        float: left;
+                        margin-left: 11px;
+                    }
+                }
+
+                #email {
+                    margin-top: 26px;
+                }
+            }
+        }
+        #tdList {
+            background-color: #33ccff;
+            width: 600px;
+            height: auto;
+            margin: 0 auto;
+            border: 1px solid black;
+            padding: 10px;
+            #txtBox {
+                display: flex;
+                label {
+                    font-size: 25px;
+                }
+                label:hover {
+                    cursor: pointer;
+                }
+                form {
+                    margin-left: 10px;
+                }
+            }
+            .items {
+                list-style-type: none;
+                display: flex;
+                margin-top: 5px;
+                div {
+                    margin-left: 10px;
+                }
+                span {
+                    margin-left: 30px;
+                    color: red;
+                }
+                span:hover {
+                    cursor: pointer;
+                    color: orange;
+                }
+            }
+        }
+        
+    }
+}

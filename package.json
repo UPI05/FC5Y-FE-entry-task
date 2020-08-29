@@ -1,0 +1,32 @@
+{
+  "name": "fc5y_job_testing",
+  "version": "1.0.0",
+  "description": "Testing frontend job for project FC5Y.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "Vo Truong Trung Hieu",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react-router-dom": "^5.1.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.24",
+    "@types/react-dom": "^16.0.5",
+    "@types/webpack": "4.1.4",
+    "css-loader": "^4.2.2",
+    "html-webpack-plugin": "^4.3.0",
+    "react-router-dom": "^5.2.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.1",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.4.3",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
